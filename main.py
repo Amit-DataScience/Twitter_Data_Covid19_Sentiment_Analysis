@@ -7,6 +7,8 @@ from Sentiment_Analysis import sentiment_logic as sl
 from Graphs import plots as pl
 from  Modeling import model as mdl
 import streamlit as st
+import nltk
+nltk.download('popular')
 if __name__ == '__main__':
 
     # title
