@@ -69,7 +69,7 @@ def Most_Common_Neutral_Words(df):
 
 #Word Cloud
 def plot_wordcloud(docx):
-    mywordcloud = Word Cloud().generate(docx)
+    mywordcloud = WordCloud().generate(docx)
     plt.imshow(mywordcloud, interpolation='bilinear')
     plt.axis("off")
     plt.show()
