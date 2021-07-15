@@ -19,7 +19,7 @@ if __name__ == '__main__':
     st.sidebar.title('Sentiment analysis of COVID-19 tweets')
 
     # loading the data
-    df = pd.read_csv(r"C:\Users\Admin\Desktop\Data_Science_Revision\Data_Science_Practical\NLP\covid19_tweets.csv")
+    df = pd.read_csv(r"covid19_tweets.csv")
     st.markdown('Check the Data set Information')
     # checkbox to show data
     if st.checkbox("Show Data"):
